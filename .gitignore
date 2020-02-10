@@ -14,8 +14,12 @@
 # Maven
 /bin
 /target/
-/inst/java/classes
 /inst/java/apidocs
+/inst/java/classes
+/inst/java/generated-sources
+/inst/java/generated-test-sources
 /inst/java/javadoc-bundle-options
 /inst/java/maven-archiver
 /inst/java/maven-status
+/inst/java/surefire-reports
+/inst/java/test-classes

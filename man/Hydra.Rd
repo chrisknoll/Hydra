@@ -3,7 +3,6 @@
 \docType{package}
 \name{Hydra}
 \alias{Hydra}
-\alias{Hydra-package}
 \title{Hydra}
 \description{
 Hydra
