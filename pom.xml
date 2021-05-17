@@ -17,7 +17,7 @@
 	    <dependency>
     		<groupId>org.json</groupId>
     		<artifactId>json</artifactId>
-	    	<version>20170516</version>
+	    	<version>20210307</version>
 	    </dependency>
 	    <dependency>
     		<groupId>org.ohdsi</groupId>
@@ -27,7 +27,7 @@
 	    <dependency>
 	    	<groupId>org.apache.commons</groupId>
 	    	<artifactId>commons-csv</artifactId>
-	    	<version>1.5</version>
+	    	<version>1.8</version>
 	    </dependency>
     </dependencies>
     
@@ -68,7 +68,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.0</version>
+				<version>3.8.1</version>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
@@ -77,7 +77,7 @@
 			<!-- Copy resources into jar -->
 			<plugin>
 				<artifactId>maven-resources-plugin</artifactId>
-				<version>3.1.0</version>
+				<version>3.2.0</version>
 				<executions>
 					<execution>
 						<id>copy-resources</id>
@@ -142,7 +142,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
-				<version>2.4</version>
+				<version>3.2.1</version>
 				<executions>
 					<execution>
 						<id>attach-sources</id>
